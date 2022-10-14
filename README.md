@@ -32,9 +32,12 @@
 - Stars 
 - User
 
+<br>
+<br>
+
 - Validate If Users Already Rated Their Meals
 
-- Validation The Rate Min Is 1 , Max Is 5
+- Validation The Rate Between 1 To 5
 
 - CRUD API For Meals [localhost:8000/api/meals/](http://127.0.0.1:8000/api/meals) 
 
