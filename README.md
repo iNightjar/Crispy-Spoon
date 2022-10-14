@@ -6,7 +6,7 @@
 
 <br>
 
-### Business Requitements As Per The Mockup
+### Business Requirments
 
 - Meals List Screen Includes Following Informations:
  
@@ -23,8 +23,8 @@
 
 <br>
 
-### Technical Implementations
-
+### Technical Development
+<br>
 <p><strong>Following Features</strong></p>
 
 - Models 
