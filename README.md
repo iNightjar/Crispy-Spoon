@@ -25,18 +25,12 @@
 
 ### Technical Implementations
 
-<div align="left>
-
 <p><strong>Following Features</strong></p>
 
 - Models 
 - Meal 
 - Stars 
 - User
-
-</div>
-
-
 
 - Validate If Users Already Rated Their Meals
 
