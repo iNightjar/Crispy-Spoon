@@ -1,46 +1,72 @@
 <div align="center">
 
 ## Crispy-Spoon
-<p><strong>Meals Rater Using Django Restful API</strong></p>
+<p><strong>Meals Rater Using Django Rest framework APIs</strong></p>
 </div>
 
+<br>
 
 ### Business Requitements As Per The Mockup
 
-- Meals list screen with the following information:
+- Meals List Screen Includes Following Informations:
  
 ```
  Meal Name - Meal Stars Number - Meals Avarage Rate 
- Login - Register - Showing Already loged-In Users.
+ Login - Register - Showing Already loged-In Users
 ```
 
 - Popup Error If Users Already Rated The Meals
 
-- Add Rate Screen, Stars {1 to 5} Only
+- Add Rate Screen, Stars From 1 To 5 Only
 
 - Save Rates To Database
 
+<br>
 
-### Technical requirements
+### Technical Implementations
 
-Using Django REST frame work please implement the followings
+<div align="left>
 
-1- Models - Meal - Stars - User
+<p><strong>Following Features</strong></p>
 
-2- validation if the user already rated the meal
+- Models 
+- Meal 
+- Stars 
+- User
 
-3- validation to rate min 1 and max 5
+</div>
 
-4- CRUD API for Meals http://127.0.0.1:8000/api/meals it should return the average rating and number of rating a long with the meal name and detail
 
-5- CRUD API for Stars http://127.0.0.1:8000/api/stars no one should be able to use this crud for rating !!
 
-6- Rate API http://127.0.0.1:8000/api/meals/meal_pk/rate_meal create and update API
+- Validate If Users Already Rated Their Meals
 
-7- Token authentication
+- Validation The Rate Min Is 1 , Max Is 5
 
-8- Login and register API
+- CRUD API For Meals [localhost:8000/api/meals/](http://127.0.0.1:8000/api/meals) 
 
-9- Token request API
+```
+Should Return Avarage Rating And Number Of Rating Along With The Meal Information
+```
 
-10- Deploy to Heroku
+
+- CRUD API for Stars [localhost:8000/api/stars/](http://127.0.0.1:8000/api/stars) 
+
+```
+No One Should Be Able To Use This Crud For Rating 
+```
+
+
+- Rate API [localhost:8000/api/meals/meal_pk/rate_meal](http://127.0.0.1:8000/api/meals/meal_pk/rate_meal)
+
+```
+Create And Update API
+```
+
+
+- Token Authentications
+
+- Login And Register API
+
+- Token Request API
+
+- Deployment To Heroku
