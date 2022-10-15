@@ -1,13 +1,15 @@
 from django.urls import path
 from rest_framework import routers
 from django.conf.urls import include
-from .views import MealViewSet, RatingViewSet
+from .views import MealViewSet, RatingViewSet, UserViewSet
 
 
 # adding routers
 router = routers.DefaultRouter()
 router.register('meals', MealViewSet)
 router.register('ratings', RatingViewSet)
+router.register('users', UserViewSet)
+
 
 
 urlpatterns = [
