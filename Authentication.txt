@@ -1,0 +1,16 @@
+- URL to request token of specific user
+    Token access    (DONE)
+
+
+- Only authenticated users can create/update meal rate
+                    (DONE)    
+
+- Register Users
+    URL > ViewSet > Serializer > Serializer Model = User             
+    
+    # making email is username forEample
+    URL > ViewSet > Serializer > Serializer Model = Custom User Abstact 
+                    (DONE)
+
+- General Security Checks
+                    (DONE)
