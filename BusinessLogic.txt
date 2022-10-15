@@ -1,0 +1,18 @@
+- localhost:8000/api/meals/meal_pk/rate_meal >> POST Method
+    * request data = stars
+    * request user = user or user name
+    * stars + user form request
+    * pk from url 
+
+    endpoint to udpate/create rate for specific mael using Meal veiwset not rate
+    view > add the custom  function with @action decorator
+
+                    (DONE)
+
+
+
+- Meal List API to show the average rating and number of ratings
+    models > add custom function/method in the model ot calculate the avg and sum
+    serializers >  add the avg and sum to the fields
+
+                    (DONE)

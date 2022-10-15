@@ -11,7 +11,28 @@ class Meal(models.Model):
     title = models.CharField(max_length=32)
     description = models.CharField(max_length=360)
 
-# a use of UUID or SLOGs is recommended in production enviroment, it's pad practise to expose the db serial to public
+    # a use of UUID or SLOGs is recommended in production enviroment,
+    #  it's pad practise to expose the db serial to public
+
+
+    # no.rating, avg of rating
+    def noOfRatings(self):
+        ratings = Rating.objects.filter(meal =self)
+        return len(ratings)
+
+
+    def avgRatings(self):
+        # sum of ratings stars (total)  / len of ratings(number of ratings)
+        sum = 0
+        ratings = Rating.objects.filter(meal=self)
+        for counter in ratings:
+            sum += counter.stars
+
+        if len(ratings) > 0:
+            return sum / len(ratings) # logical error handle, if ratings = zero
+        else:
+            return 0
+
 
     def __str__(self):
         return self.title
