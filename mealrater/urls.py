@@ -10,4 +10,5 @@ urlpatterns = [
 
     # url for token request
     path('tokenrequest/', obtain_auth_token),
+    
 ]
