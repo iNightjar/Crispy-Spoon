@@ -1,6 +1,7 @@
 <div align="center">
 
 ## Crispy-Spoon
+
 <p><strong>Meals Rater Using Django Rest framework APIs</strong></p>
 </div>
 
@@ -9,7 +10,7 @@
 ### Business Requirments
 
 - Meals List Screen Includes Following Informations:
- 
+
 ```
  Meal Name - Meal Stars Number - Meals Avarage Rate 
  Login - Register - Showing Already loged-In Users
@@ -24,12 +25,13 @@
 <br>
 
 ### Technical Development
+
 <br>
 <p><strong>Following Features</strong></p>
 
-- Models 
-- Meal 
-- Stars 
+- Models
+- Meal
+- Stars
 - User
 
 <br>
@@ -39,19 +41,17 @@
 
 - Validation The Rate Between 1 To 5
 
-- CRUD API For Meals [localhost:8000/api/meals/](http://127.0.0.1:8000/api/meals) 
+- CRUD API For Meals [localhost:8000/api/meals/](http://127.0.0.1:8000/api/meals)
 
 ```
 Should Return Avarage Rating And Number Of Rating Along With The Meal Information
 ```
 
-
-- CRUD API for Stars [localhost:8000/api/stars/](http://127.0.0.1:8000/api/stars) 
+- CRUD API for Stars [localhost:8000/api/stars/](http://127.0.0.1:8000/api/stars)
 
 ```
 No One Should Be Able To Use This Crud For Rating 
 ```
-
 
 - Rate API [localhost:8000/api/meals/meal_pk/rate_meal](http://127.0.0.1:8000/api/meals/meal_pk/rate_meal)
 
@@ -59,11 +59,11 @@ No One Should Be Able To Use This Crud For Rating
 Create And Update API
 ```
 
-
 - Token Authentications
 
 - Login And Register API
 
 - Token Request API
 
-- Deployment To Heroku
+
+## [Deployment To Heroku](https://github.com/iNightjar/Crispy-Spoon/blob/master/HerokuDeployment.txt)
