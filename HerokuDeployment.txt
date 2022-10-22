@@ -58,7 +58,7 @@
         •   touch Procfile
                 Procfile >  web: gunicorn mealrate.wsgi --log-file -
         •   touch runtime.txt
-                runtime > Python-3.10.7
+                runtime > Python-3.10.8
         
         
 • allowed hosts @settings 
